@@ -1,0 +1,22 @@
+const prompt = require('prompt-sync')()
+
+let pergunta1 = prompt("O que é bullying? ")
+let pergunta2 = prompt("O que é assimetria de poder? ")
+let pergunta3 = prompt("Defina cyberbullying: ")
+let pergunta4 = prompt("O que é interseccionalidade? ")
+let pergunta5 = prompt("Qual a relação com o bullying? ")
+let pergunta6 = prompt("Quem foi Kimberly Crenshaw? ")
+let pergunta7 = prompt("O que são os preconceitos estruturais? explique e cite 3 deles. ")
+let pergunta8 = prompt("O bullying ocorre por acaso? ")
+let pergunta9 = prompt("Bullying é crime? ")
+
+console.log( "resposta 1: " + pergunta1)
+console.log( "resposta 2: " + pergunta2)
+console.log( "resposta 3: " + pergunta3)
+console.log( "resposta 4: " + pergunta4)
+console.log( "resposta 5: " + pergunta5)
+console.log( "resposta 6: " + pergunta6)
+console.log( "resposta 7: " + pergunta7)
+console.log( "resposta 8: " + pergunta8)
+console.log( "resposta 9: " + pergunta9)
+
