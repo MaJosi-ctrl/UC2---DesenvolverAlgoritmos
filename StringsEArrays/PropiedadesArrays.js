@@ -68,3 +68,39 @@ let meusPeixes = ["palhaço", "mandarim", "esturjão"]
 console.log(meusPeixes)
 meusPeixes.pop()
 console.log(meusPeixes)
+
+//--------------------------------------------------
+// Propriedade ou Método splice (i, n): remove n elementos à partir da posição i do array.
+
+let letras = ["A", "B", "C", "D", "E", "F", "G", "H"]
+// índices:    0    1    2    3    4    5    6    7
+
+console.log("Array completa: " + letras)
+
+// Aplicando o método splice(i, n) da array letras, na posição 2("C") remove 1 elemento (o próprio "C")
+let letrasSemUmElemento = letras.splice(2, 1)
+ console.log("Elementos retirados da array letras com splice(2, 1): " + letrasSemUmElemento)
+
+ console.log("Array letras ficou assim: " + letras)
+
+ let letrasSemDoisElementos = letras.splice(3, 2)
+ console.log("Elementos retirados da array letras com splice(3, 2): " + letrasSemDoisElementos)
+
+ console.log("Array letras ficou assim: " + letras)
+ 
+//--------------------------------------------------
+// Propiedade ou metodo concat (): junta dois ou mais arrays para formar um novo array.
+let frutas2 = ["maçã", "banana"]
+let legume = ["cenoura", "batata"]
+
+let alimentos = frutas2.concat(legume)
+console.log(alimentos)
+
+//--------------------------------------------------
+// Propriedade ou metodo sort (): ele organiza os itens em ordem crescente (por padrão, em ordem alfabética para strings)
+
+let frutas3 = ["banana", "tangerina do gusta", "bergamota", "laranja"]
+frutas3.sort()
+console.log(frutas3)
+
+
