@@ -27,3 +27,8 @@ let resultado = somar(3256, 4839)
 console.log(resultado) 
 
 //----------------------------------------
+// 3. Arrow functions (função de seta =>): possuem umja sintaxe mais curta
+
+const multiplicar = (x, y) => x * y
+console.log(multiplicar(4, 5))
+
