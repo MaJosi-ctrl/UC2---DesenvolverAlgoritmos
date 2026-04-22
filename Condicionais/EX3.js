@@ -1,6 +1,5 @@
-let coragem = 'Eleven'
-let inteligencia = 'Will'
-let lealdade = 'Mike'
+let coragem = 'Grifindoria'
+
 
 if (coragem > 80) {
     console.log("Grifindoria!")
