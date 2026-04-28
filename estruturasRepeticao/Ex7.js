@@ -1,5 +1,5 @@
 // Array com moedas coletadas em cada fase
-let moedas = [5, 7, 10, 8, 9]
+let moedas = [20, 7, 40, 8, 24]
 // Variável para percorrer o array
 let i = 0
 // Variável para guardar o total de moedas
